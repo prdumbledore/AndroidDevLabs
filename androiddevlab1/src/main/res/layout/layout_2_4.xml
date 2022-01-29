@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayout"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+
+    <ImageButton
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/imageview"
+        android:id="@+id/imagebutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/imgbutton"
+        android:contentDescription="@string/imgbut" />
+    <ImageView
+        app:layout_constraintTop_toBottomOf="@id/imagebutton"
+        app:layout_constraintBottom_toTopOf="@id/radiobutton"
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/imgbutton"
+        android:contentDescription="@string/imgbut" />
+    <RadioButton
+        app:layout_constraintTop_toBottomOf="@id/imageview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constrainedHeight="true"
+        android:id="@+id/radiobutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/radiobutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayout">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            app:layout_constraintBottom_toTopOf="@id/radiobutton"
+            app:layout_constraintStart_toEndOf="@id/imageview"
+            app:layout_constraintWidth_percent=".4"
+            app:layout_constraintHeight_percent=".2"
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:hint="@string/button"/>
+        <CheckBox
+            app:layout_constraintTop_toBottomOf="@id/button"
+            app:layout_constraintStart_toEndOf="@id/button"
+            app:layout_constraintWidth_percent=".4"
+            app:layout_constraintHeight_percent=".2"
+            android:id="@+id/checkbox"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/checkbox"/>
+        <EditText
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/imagebutton"
+            app:layout_constraintWidth_percent=".4"
+            app:layout_constraintHeight_percent=".2"
+            android:id="@+id/message"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:autofillHints="message"
+            android:inputType="text"
+            android:hint="@string/message"/>
+        <ImageButton
+            app:layout_constraintTop_toBottomOf="@id/message"
+            app:layout_constraintStart_toEndOf="@id/button"
+            app:layout_constraintWidth_percent=".4"
+            app:layout_constraintHeight_percent=".2"
+            android:id="@+id/imagebutton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/imgbutton"
+            android:contentDescription="@string/imgbut" />
+        <ImageView
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/button"
+            app:layout_constraintWidth_percent=".2"
+            app:layout_constraintHeight_percent=".4"
+            android:id="@+id/imageview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/imgbutton"
+            android:contentDescription="@string/imgbut" />
+        <RadioButton
+            app:layout_constraintStart_toEndOf="@id/imageview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintWidth_percent=".2"
+            app:layout_constraintHeight_percent=".4"
+            android:id="@+id/radiobutton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/radiobutton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

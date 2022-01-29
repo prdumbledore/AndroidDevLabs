@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:orientation="vertical">
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/imgbutton"
+        android:contentDescription="@string/imgbut" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/imgbutton"
+        android:contentDescription="@string/imgbut" />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/radiobutton" />
+
+</LinearLayout>

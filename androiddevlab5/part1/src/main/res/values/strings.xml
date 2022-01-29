@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidDebLab5</string>
+    <string name="ElapsedJavaThread">\"Seconds elapsed via thread: %d\"</string>
+    <string name="ElapsedExecutor">\"Seconds elapsed via executor: %d\"</string>
+    <string name="ElapsedCoroutine">\"Seconds elapsed via coroutine: %d\"</string>
+</resources>

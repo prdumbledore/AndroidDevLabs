@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidDevLab1</string>
+    <string name="button">button</string>
+    <string name="checkbox">checkbox</string>
+    <string name="message">message</string>
+    <string name="imgbut">This is Robert Pattinson</string>
+    <string name="radiobutton">radiobutton</string>
+    <string name="textview">textview</string>
+</resources>

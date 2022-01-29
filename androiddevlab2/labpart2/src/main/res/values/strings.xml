@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Continue Watch</string>
+    <string name="SecElapsed">Seconds elapsed: %d</string>
+</resources>
